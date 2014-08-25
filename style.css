@@ -1,0 +1,21 @@
+
+/**
+ * Rockerbox logo.
+ */
+
+.logo[data-logo="Rockerbox"] {
+  width: 4.708583877995642em;
+}
+
+.logo[data-logo="Rockerbox"] > * {
+  background-image: url(images/logo.svg);
+  margin: .12em 0 .17em;
+}
+
+.logo[data-logo="Rockerbox"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Rockerbox"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
